@@ -10,6 +10,7 @@ albedo_color = Color(0.6, 0.27451, 0.27451, 1)
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7gmjc"]
 
 [node name="Enemy" type="CharacterBody3D"]
+wall_min_slide_angle = 0.523599
 floor_max_angle = 1.22173
 script = ExtResource("1_tfmns")
 
