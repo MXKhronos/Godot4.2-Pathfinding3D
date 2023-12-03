@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pathfinding3D",
+            "type": "coreclr",
+            "request": "launch", 
+            "preLaunchTask": "build",
+            "program": "Z:/Godot/Godot_v4.2-stable_mono_win64/Godot_v4.2-stable_mono_win64.exe",
+            "args": ["-novid", "-console"],
+            "console": "integratedTerminal", 
+            "stopAtEntry": false
+        }
+    ]
+}
