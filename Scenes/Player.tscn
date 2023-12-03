@@ -8,6 +8,7 @@ albedo_color = Color(0.239216, 0.505882, 1, 1)
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xyh36"]
 
 [node name="Player" type="CharacterBody3D"]
+floor_max_angle = 1.22173
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
